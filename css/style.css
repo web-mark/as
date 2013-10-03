@@ -1,0 +1,264 @@
+*{	
+	padding:0;
+	margin:0;
+}
+.clear{
+	clear:both;
+}
+body{display:block;
+	background:url(../img/fon.jpg)repeat; 
+}
+#row{
+	width:960px;
+	margin:0 auto;
+	border:1px solid #4b4a4a; 
+}
+header{
+	display:blog;
+	float:left;
+	width:960px;
+	border:1px solid #4b4a4a; 
+}
+.logo {
+	float:left;
+	width:137px;
+	margin-top:10px;
+	border:1px solid #4b4a4a; 
+}
+.l-p{
+	float:left;
+	width:380px;
+	border:1px solid #4b4a4a;
+	margin-top:25px;
+	
+}
+.m{
+	float:right;
+	width:300px;
+	border:1px solid #4b4a4a;
+	margin-top:10px;
+	
+}
+.l-p p{
+	font-family:Lucida Sans,sans-serif;
+	font-size:11px;
+	font-weight:Regular;
+	color:#44b5e8;	
+}
+.m  ul{
+	list-style:none;	
+}	
+.m li{
+	list-style:none;
+	display:block;
+	float:left;
+}
+.m li a{
+	display:block;
+	float:left;
+	font-family:Lucida Sans,sans-serif;
+	color:#888888;
+	font-size:12px;
+	font-weight:bold;
+	text-decoration:none;
+	padding:15px 5px;	
+}
+.m li a.current{
+	font-family:Lucida Sans,sans-serif;
+	color:#44b5e8;
+	font-size:12px;
+	font-weight:bold;
+}
+.con{
+	float:left;
+	width:959px;
+	border:1px solid #4b4a4a;
+	margin-top:30px;
+}
+.tel{
+	background:url(../img/mon.png)no-repeat; 
+	width:402px;
+	height:355px;
+	float:left;
+	display:block;	
+}
+.tex{
+	float:right;
+	width:500px;
+	margin-top:40px;
+	border:1px solid #4b4a4a;
+}
+.tex h1{
+	font-family:Lucida Sans,sans-serif;
+	color:#666666;
+	font-size:44px;
+	font-weight:Demibold Romano;
+}
+.tex p{
+	font-family:Lucida Sans,sans-serif;
+	color:#888888;
+	font-size:12px;
+	font-weight:Regular;
+	margin-top:10px;
+}
+.j{
+	color:#42b0e2;
+}
+.co-cn button{
+	background:url(../img/cnop.png)no-repeat;
+	width:144px;
+	height:36px;
+	float:right;
+	margin-right:15px;
+	border:none;
+	display:block;
+}	
+	
+button{
+	font-family:Lucida Sans,sans-serif;
+	color:#ffffff;
+	font-size:14px;
+	font-weight:Demibold Romano;
+	margin-left:10px;
+	position:relative;
+	float:left;
+}
+/*=======================================================================
+===================== conten ============================================ */
+#row-conten{
+	background:url(../img/on-fon.jpg)repeat-x; 
+	height:103px;
+	display:block;
+}
+.rt{
+	width:960px;
+	margin:0 auto;
+	border:1px solid #4b4a4a;
+}
+section{
+	width:960px;
+	margin:0 auto;
+	border:1px solid #4b4a4a;
+}
+.mol{
+	float:left;
+	width:710px;
+	border:1px solid #4b4a4a;
+	height:100px;
+}
+.con-mol{
+	background:url(../img/mol.png)no-repeat; 
+	width:33px;
+	height:47px;
+	float:left;	
+	margin-top:23px;
+	margin-left:5px;
+	display:block;
+}
+.con-mol h1{
+	float:left;	
+	font-family:Lucida Sans,sans-serif;
+	color:#666666;
+	font-size:18px;
+	font-weight:Italic;
+	margin-left:50px;
+	border:1px solid #4b4a4a;
+	width:650px;
+}
+.con-mol p{
+	float:left;	
+	font-family:Lucida Sans,sans-serif;
+	color:#666666;
+	font-size:12px;
+	font-weight:Regular;
+	margin-left:50px;
+	margin-top:5px;
+	border:1px solid #4b4a4a;
+	width:400px;
+}
+.con-rid{
+	float:right;
+	width:236px;
+	border:1px solid #4b4a4a;
+	height:100px;
+}
+.bon button{
+	background:url(../img/sen.png)no-repeat; 
+	width:207px;
+	height:38px;
+	float:right;
+	margin-right:15px;
+	margin-top:15px;
+	border:none;
+	display:block;
+}
+.con-tex{
+	width:960px;
+	border:1px solid #4b4a4a;
+}
+.box-lev{
+	float:left;	
+	width:470px;
+	border:1px solid #4b4a4a;	
+}
+.box-rid{
+	float:right;
+	width:460px;
+	margin-right:10px;
+	border:1px solid #4b4a4a;
+}
+.box-lev img{
+	float:left;
+	margin:15px 0 0 5px;
+}
+.box-lev h3{
+	font-family:Lucida Sans,sans-serif;
+	color:#888888;
+	font-size:24px;
+	font-weight:Regular;
+	float:left;
+	margin-top:30px;
+}
+.box-lev p{
+	font-family:Lucida Sans,sans-serif;
+	color:#666666;
+	font-size:12px;
+	font-weight:Regular;
+	float:left;
+	margin:10px 0 0 5px;
+}
+.box-rid img{
+	float:left;
+	margin:15px 0 0 5px;
+}
+.box-rid h3{
+	font-family:Lucida Sans,sans-serif;
+	color:#888888;
+	font-size:24px;
+	font-weight:Regular;
+	float:left;
+	margin-top:30px;
+}
+.box-rid p{
+	font-family:Lucida Sans,sans-serif;
+	color:#666666;
+	font-size:12px;
+	font-weight:Regular;
+	float:left;
+	margin:10px 0 0 6px;
+}
+.box-cent{
+	float:left;	
+	width:958px;
+	border:1px solid #4b4a4a;	
+}
+.fig{
+	text-align: center;
+	margin-top:15px;
+}
+/*==========================================================
+==========================================================*/
+
+
+
+
